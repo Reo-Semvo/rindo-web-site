@@ -1,0 +1,80 @@
+body{
+  background:#e6ffe6;
+  color:#111;
+  font-family:"MS PGothic","ＭＳ Ｐゴシック",sans-serif;
+  font-size:14px;
+}
+
+a{color:#0000ee;}
+a:visited{color:#551a8b;}
+
+.wrap{
+  width:880px;
+  margin:12px auto;
+  background:#fff;
+  border:2px solid #0a7a2a;
+}
+
+.header{
+  background:#eaffea;
+  padding:10px 14px;
+  border-bottom:2px dotted #0a7a2a;
+}
+
+.header h1{
+  margin:0;
+  font-size:22px;
+  font-weight:bold;
+  letter-spacing:1px;
+}
+
+.badge{
+  display:inline-block;
+  padding:2px 6px;
+  border:1px solid #333;
+  background:#ffffcc;
+  font-size:12px;
+}
+
+.main{
+  display:table;
+  width:100%;
+}
+
+.left{
+  display:table-cell;
+  width:230px;
+  vertical-align:top;
+  background:#f5fff5;
+  border-right:1px solid #cfcfcf;
+}
+
+.right{
+  display:table-cell;
+  vertical-align:top;
+  padding:12px 14px;
+}
+
+.menu a{
+  display:block;
+  padding:7px 10px;
+  text-decoration:none;
+  border-bottom:1px dotted #b5d8b5;
+}
+
+.menu a:hover{background:#eaffea;}
+
+.box{
+  border:1px solid #0a7a2a;
+  background:#fff;
+  padding:10px;
+  margin:10px;
+}
+
+.footer{
+  padding:10px 14px;
+  font-size:12px;
+  border-top:1px solid #cfcfcf;
+  background:#fafafa;
+}
+.small{font-size:12px;color:#666;}
